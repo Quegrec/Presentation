@@ -25,7 +25,7 @@ a {
 .fond_gris_haut{
     background-color: grey;
     width: 125vh;
-    height: 20vh;
+    height: 15vh;
 }
 .triangle_gris_haut{
     margin-top: -15vh;
@@ -49,11 +49,18 @@ a {
     font-size: 6.8vh;
 }
 .fond_gris_haut h2{  
-    color: #f1f1f1;
+    color: #ff8800;
     position: absolute;
     width: 57vh;
     margin: 5vh 50vh;
     font-size: 4.7vh;
+}
+.fond_gris_haut h3{  
+    color: #f1f1f1;
+    position: absolute;
+    width: 57vh;
+    margin: 5vh 50vh;
+    font-size: 4vh;
 }
 .barre{  
     position: absolute;
@@ -77,7 +84,7 @@ a {
     text-align: center;
     color: rgb(255, 192, 0);
     font-size: 3.5vh;
-    margin-top: -45.5vh;
+    margin-top: -47.5vh;
     margin-bottom: 1.5vh;
     margin-left: 20vh;
     margin-right: 20vh;
@@ -111,7 +118,7 @@ a {
     text-align: center ;
     color: rgb(255, 192, 0);
     font-size: 3.5vh;
-    margin-top: -33.5vh;
+    margin-top: -28.5vh;
     margin-bottom: 1.5vh;
     margin-left: 10vh;
     margin-right: 10vh;
@@ -143,7 +150,7 @@ a {
     text-align: center;
     color: rgb(255, 192, 0);
     font-size: 3.5vh;
-    margin-top: -53vh;
+    margin-top: -40vh;
     margin-bottom: 1.5vh;
     margin-left: 15vh;
     margin-right: 15vh;
@@ -173,7 +180,7 @@ a {
     text-align: center ;
     color: rgb(255, 192, 0);
     font-size: 3.5vh;
-    margin-top: -70vh;
+    margin-top: -61vh;
     margin-bottom: 1.5vh;
     margin-left: 5vh;
     margin-right: 5vh;
@@ -204,11 +211,50 @@ a {
 }
 
 
+.ligne_3{   
+    display: flex;
+    margin-top: 51vh;
+    margin-bottom: -5vh;
+}
+.réalisations{    
+    width: 35%;
+    margin: 3vh;
+    margin-top: -18vh;
+    width: 125vh
+}
+.titre_réalisations{
+    background-color: #f1f1f1;
+    text-align: center;
+    color: rgb(255, 192, 0);
+    font-size: 3.5vh;
+    margin-top: -42vh;
+    margin-bottom: 1.5vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.corp_réalisations{
+    border: 0.5vh solid rgb(127,127,127);
+    padding: 1vh;
+    color: rgb(89,89,89);
+    padding-top: 5vh;
+}
+.corp_réalisations h3{  
+    font-size: 2.9vh;
+    margin-top: 0.5vh;
+    color: #333;
+    margin-bottom: 1vh;
+}
+.corp_réalisations p{  
+    font-size: 2.7vh;
+    margin-left: 2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
+}
 
-.ligne_3{
+.ligne_4{
     display: flex;
     background-color: grey;
-    height: 27vh;
+    height: 12vh;
 }
 
 .langues_etrangeres{   
@@ -217,11 +263,10 @@ a {
     margin-top: -1vh;
 }
 .titre_langues_etrangeres{
-    background-color: gray;
     text-align: center ;
-    color: #f1f1f1;
+    color: rgb(255, 192, 0);
     font-size: 3.5vh;
-    margin-top: -24vh;
+    margin-top: -47vh;
     margin-bottom: 1.5vh;
     margin-left: 7vh;
     margin-right: 7vh;
@@ -231,53 +276,14 @@ a {
     border: 0.5vh solid #f1f1f1;
     padding: 1vh;
     color: #f1f1f1;
-    margin-top: 5vh;
-    padding-top: 5vh;
+    margin-bottom: 25vh;
 }
 .corp_langues_etrangeres p{  
     padding-left: 4vh;
     margin-bottom: 0.7vh;
 }
-
-.centre_interet{  
-    width: 60%;
-    margin: 3vh;
-    margin-top: -1vh;
-}
-.titre_centre_interet{
-    background-color: gray;
-    text-align: center ;
-    color: #f1f1f1;
-    font-size: 3.5vh;
-    margin-top: -22vh;
-    margin-bottom: 1.5vh;
-    margin-left: 15vh;
-    margin-right: 15vh;
-}
-.corp_centre_interet{
-    display: flex;
-    font-size: 2.7vh;
-    border: 0.5vh solid #f1f1f1;
-    padding: 1vh;
-    color: #f1f1f1;
-    margin-top: 5vh;
-    padding-top: 5vh;
-    padding-bottom: 4vh;
-}
-.corp_centre_interet p{  
-    padding-left: 5vh;
-    margin-bottom: 0.7vh;
-}
-.corp_centre_interet h3{   
-    font-size: 2.9vh;
-    padding-left: 5vh;
-    margin-bottom: 0.7vh;
-}
-
-
-
 .triangle_jaune_bas{
-    margin-top: 40vh;
+    margin-top: 26vh;
     margin-bottom: -10vh;
     width: 125vh;
     height: 15vh;
